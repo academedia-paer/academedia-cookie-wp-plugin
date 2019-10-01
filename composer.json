@@ -1,4 +1,5 @@
 {
     "name": "academedia/academedia-cookie-wp-plugin",
-    "description": "A short description of what your package does"
+    "description": "A short description of what your package does",
+    "type": "wordpress-plugin"
 }
