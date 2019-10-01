@@ -1,0 +1,1 @@
+# academedia-cookie-wp-plugin
