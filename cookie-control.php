@@ -1,11 +1,10 @@
 <?php
 /**
-* Plugin Name: Cookie control
-* Plugin URI: https://www.ohmy.co
-* Description: This plugin adds a cookiebar and options for it.
-* Version: 0.22
-* Author: Oh My Interactive AB
-* Author URI: https://www.ohmy.co
+* Plugin Name: Academedia cookie-bar
+* Plugin URI: https://github.com/academedia-paer/academedia-cookie-wp-plugin/
+* Description: Let's meet at the cookie-bar
+* Version: 1.00
+* Author: Pär Henriksson, academedia
 **/
 
 defined( 'ABSPATH' ) or die( 'Forbidden' );
