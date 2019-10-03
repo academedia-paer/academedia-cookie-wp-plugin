@@ -33,10 +33,16 @@ add_action('body_class', function ($classes) {
 	return $classes;
 });
 
-if (! cookie_bar_show_revoke()) { ?>
-	<style>
-		.cc-revoke {
-			display: none!important;
-		}
-	</style>
-<?php }
+
+if (! cookie_bar_show_revoke()) {
+
+	function cookie_inline_css() {
+			$custom_css = "
+				.cc-revoke {
+					display: none!important;
+				}";
+	  wp_add_inline_style( 'cookie-hide-revoke', $custom_css ); 
+	}
+	add_action( 'wp_enqueue_scripts', 'cookie_inline_css' ); 
+
+}
